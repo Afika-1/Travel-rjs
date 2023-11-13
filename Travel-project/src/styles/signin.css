@@ -21,6 +21,13 @@
     float: left;
     background-color: rgba(0, 0, 0, 0.4);
 }
+.on-page{
+    color: #FF9F1C;
+}
+a{ text-decoration: none;
+    color: #747474;
+}
+
 .signin-form{
     height: 60vh;
     background-color: #091834;
@@ -60,7 +67,7 @@ border: solid 2px rgba(255, 255, 255, 0.5);
     font-size: 25px;
     background-color: #091834;
     border: none;
-    color: #747474;
+    /* color: #747474; */
     margin-bottom: 25px;
 
 }

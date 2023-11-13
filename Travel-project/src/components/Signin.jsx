@@ -7,7 +7,7 @@ export default function Signin() {
 
     return (
         <>
-            <div className='signin'>
+            <div className='signin' id='signin'>
                 <div className='image-img'>
                     <span className='floating-arrow'>{`<`}</span>
                 <img src={Image}/> 
@@ -15,12 +15,14 @@ export default function Signin() {
 
                     <div className='signin-form'>
                         <div className='signin-btns'>
-                            <button>Login</button> <button>Sign in </button>
+                            <button ><a href='#login'>Login</a></button> <button className='on-page'>Sign in </button>
                         </div>
                         <form>
                             <div className='inputs'>
+                                <input placeholder='Full Name' />
                                 <input placeholder='Email' />
                                 <input placeholder='Password' />
+                                <input placeholder='Confirm Password' />
                             </div>
                             <div className='login-socials'>
                                 <p>Or continue with</p>
