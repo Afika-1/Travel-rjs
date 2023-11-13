@@ -1,0 +1,74 @@
+
+@media screen and (max-width: 600px) {
+    
+    .signin{
+    height: 100vh;
+    background-color: #091834;
+    z-index: -1;
+}
+.image-img img{
+    width: 100vw;
+    height: 40vh;
+}
+.image-img{
+    position: relative;
+    z-index: 1;
+}
+.signin-form{
+    height: 60vh;
+    background-color: #091834;
+    z-index: 2;
+   color: white;
+    /* border-radius: 10px ; */
+    /* border-top: solid 5px rgba(255, 255, 255, 0.1); */
+}
+.signin-form form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.signin-form form .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.signin-form form input{
+height: 30px;
+width: 300px;
+border-radius: 50px;
+padding: 5px;
+background-color:rgba(0, 0, 0, 0.4) ;
+border: solid 2px rgba(255, 255, 255, 0.5);
+}
+.signin-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  
+}
+.signin-btns button{
+    font-size: 25px;
+    background-color: #091834;
+    border: none;
+    color: #747474;
+    margin-bottom: 25px;
+
+}
+.signin-btns button:hover{
+    color: #FF9F1C;
+}
+.login-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit-btn{
+    width: 90vw;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+}

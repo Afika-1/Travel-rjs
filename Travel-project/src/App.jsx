@@ -1,21 +1,15 @@
 import { useState } from 'react'
 // import HomeImage from './assets/images/ride.jpg'
-import './App.css'
+import Landing from './components/Landing-page'
+import Signin from './components/Signin'
+// import './App.css'
 
 function App() {
 
   return (
     <>
-      <div className='main'>
-        <div className='welcome-msg'>
-          <h1>
-            Make Your Dream A Reality
-          </h1>
-          <h3>The perfect travel companion for your next trip.</h3>
-          <button className='start'><span>{`>>`}</span> Get started</button>
-
-        </div>
-      </div>
+      <Landing/>
+      <Signin/>
 
     </>
   )
