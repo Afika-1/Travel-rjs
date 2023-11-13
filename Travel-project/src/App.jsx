@@ -9,9 +9,10 @@ function App() {
       <div className='main'>
         <div className='welcome-msg'>
           <h1>
-          Make Your Dream A Reality
+            Make Your Dream A Reality
           </h1>
           <h3>The perfect travel companion for your next trip.</h3>
+          <button className='start'><span>{`>>`}</span> Get started</button>
 
         </div>
       </div>
