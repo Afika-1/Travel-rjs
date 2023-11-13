@@ -7,7 +7,11 @@ function App() {
   return (
     <>
       <div className='main'>
-        <div>
+        <div className='welcome-msg'>
+          <h1>
+          Make Your Dream A Reality
+          </h1>
+          <h3>The perfect travel companion for your next trip.</h3>
 
         </div>
       </div>
