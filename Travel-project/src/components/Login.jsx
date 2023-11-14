@@ -27,7 +27,7 @@ export default function Login() {
                                 <p>Or continue with</p>
                                 <div ><button>FB</button> <button>Gg </button></div>
                             </div>
-                            <button className='submit-btn' type='submit'>Sign Up</button>
+                            <button className='bg-red' type='submit'>Login</button>
                         </form>
                     </div>
                 </div>
